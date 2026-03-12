@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project applies **Bayesian Neural Networks (BNNs)** and **Monte Carlo Dropout (MC Dropout)** to predict **loan approval** decisions using the **Bank Loan Approval dataset** from Kaggle. The goals are:
+This project applies Bayesian Neural Networks (BNNs) and Monte Carlo Dropout (MC Dropout) to predict loan approval decisions using the Bank Loan Approval dataset from Kaggle. The goals are:
 1. Evaluate the effectiveness of BNNs for loan approval prediction.
 2. Assess how MC Dropout prevents overfitting and improves generalization.
 
@@ -11,7 +11,7 @@ By fine-tuning dropout rates (30% to 60%), we achieved 90% accuracy and a loan a
 
 ## Dataset
 
-The **Bank Loan Approval dataset** contains 5,000 observations and 12 features, including:
+The Bank Loan Approval dataset contains 5,000 observations and 12 features, including:
 - Age, Years of Work Experience, Income, Credit Score, etc.
 - **Target**: Binary outcome for loan approval (1 = approved, 0 = denied).
 
@@ -23,11 +23,13 @@ The **Bank Loan Approval dataset** contains 5,000 observations and 12 features, 
 
 ### Training:
 - **Training/Test Split**: 80%/20%
-- **Epochs**: 30, **Batch Size**: 5, **Loss**: Binary Cross-Entropy
+- **Epochs**: 30
+- **Batch Size**: 5
+- **Loss**: Binary Cross-Entropy
 - **Optimizer**: Adam
 
 ### Regularization:
-- Applied **Monte Carlo Dropout** with dropout rates from 30% to 60% to prevent overfitting.
+- Applied Monte Carlo Dropout with dropout rates from 30% to 60% to prevent overfitting.
 
 ## Results
 
@@ -40,9 +42,9 @@ BNNs and MC Dropout effectively prevent overfitting and improve loan approval pr
 
 ## Future Work
 
-- Expand to **fraud detection**, **customer churn**, and **healthcare diagnostics**.
-- Scale with **distributed training** for larger datasets.
-- Explore **model explainability** for transparent decision-making.
+- Expand to fraud detection, customer churn, and healthcare diagnostics.
+- Scale with distributed training for larger datasets.
+- Explore model explainability for transparent decision-making.
 
 ## Authors
 
@@ -51,5 +53,5 @@ BNNs and MC Dropout effectively prevent overfitting and improve loan approval pr
 - **V.S. Murali Krishna Chittlu**: Machine Learning, AI
 - **Dr. Kunal Arekar**: Bayesian Modeling, Deep Learning
 
-For questions, contact any of above authors or **Dr. Kunal Arekar** at [kunalarekar@arizona.edu](mailto:kunalarekar@arizona.edu).
+For questions, contact any of above authors or Dr. Kunal Arekar at [kunalarekar@arizona.edu](mailto:kunalarekar@arizona.edu).
 
