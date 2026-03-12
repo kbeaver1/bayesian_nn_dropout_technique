@@ -11,9 +11,7 @@ By fine-tuning dropout rates (30% to 60%), we achieved 90% accuracy and a loan a
 
 ## Dataset
 
-The Bank Loan Approval dataset contains 5,000 observations and 12 features, including:
-- Age, Years of Work Experience, Income, Credit Score, etc.
-- **Target**: Binary outcome for loan approval (1 = approved, 0 = denied).
+The Bank Loan Approval dataset contains 5,000 observations and 12 features, including: Age, Years of Work Experience, Income, Credit Score, and a binary outcome for Loan Approval (1 = Approved, 0 = Denied).
 
 ## Methodology
 
@@ -22,7 +20,7 @@ The Bank Loan Approval dataset contains 5,000 observations and 12 features, incl
 - **Output layer**: Sigmoid activation for binary classification.
 
 ### Training:
-- **Training/Test Split**: 80%/20%
+- **Training/Test Split**: 80% / 20%
 - **Epochs**: 30
 - **Batch Size**: 5
 - **Loss**: Binary Cross-Entropy
